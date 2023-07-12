@@ -19,8 +19,11 @@ try{
   
   if(resultSet.next()){
   
-   String emailId = resultSet.getString("email");
-   session.setAttribute("loggedUser", emailId);
+   String loggedId = resultSet.getString("id");   
+   String loggedname = resultSet.getString("names");
+
+   session.setAttribute("loggedUser", loggedId);
+    session.setAttribute("loggedId", loggedname);
    
    response.sendRedirect("dashboard.jsp");
     

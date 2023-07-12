@@ -18,7 +18,7 @@
           <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&family=Poppins:wght@300&display=swap" rel="stylesheet">
 
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-        <link rel="stylesheet" href="css/styles/style.css"/>
+        <link rel="stylesheet" href="styles/style.css"/>
     </head>
 <body>
   <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
