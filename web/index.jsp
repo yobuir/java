@@ -14,8 +14,8 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&family=Poppins:wght@300&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-   <link rel="stylesheet" href="styles/style.css"/>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>  <link rel="stylesheet" href="styles/style.css"/>
  
     </head>
   <body>
@@ -39,7 +39,7 @@
     </div>
   </nav>
 
-  <header class="jumbotron jumbotron-fluid">
+  <header class="jumbotron jumbotron-fluid mt-5 pt-5">
     <div class="container">
       <h1 class="display-4">Welcome to MyWallet</h1>
       <p class="lead">The easiest way to save, transfer, and withdraw money online.</p>
@@ -134,7 +134,10 @@
                   <label for="password">Confirm Password</label>
                   <input type="password" class="form-control" name="c_password" id="c_password" placeholder="confirm password">
                 </div>
-                <button type="submit" class="btn btn-primary btn-block">Sign Up</button>
+                  <div class="form-group">
+                    <button type="submit" class="btn btn-primary btn-block">Sign Up</button>
+                  </div>
+                  if you already have an sccount <a href="login.jsp">Login here</a>
               </form>
             </div>
           </div>
